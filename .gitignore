@@ -2,20 +2,18 @@
 
 # OS files
 *.DS_Store
+*thumbs.db
 
-# Latex RMarkdown template files
-/figure_latex/
-*_figure_latex/
-  
+# ignore Latex RMarkdown template files
+figure_latex/
+
 .fff
 *.fff
 
-# raw data files
-/data/raw_data/
-*_data/raw_data/
-data/raw_data/*.sav
-data/raw_data/*.csv
-
+# Ignore raw data files
+raw_data/
+raw_data/*.sav
+raw_data/*.csv
 
 
 # Created by https://www.gitignore.io/api/r
