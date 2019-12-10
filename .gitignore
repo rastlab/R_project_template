@@ -10,11 +10,6 @@ figure_latex/
 .fff
 *.fff
 
-# Ignore raw data files
-raw_data/
-raw_data/*.sav
-raw_data/*.csv
-
 
 # Created by https://www.gitignore.io/api/r
 # Edit at https://www.gitignore.io/?templates=r
